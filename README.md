@@ -52,3 +52,12 @@ await showToast('Hello, world!')
 // Show a long toast message
 await showToast('This is a long message that will be displayed for a longer duration', 'long')
 ```
+
+## Contributing
+
+1. Clone this repository.
+2. Set up the Android environment.
+3. Install pnpm.
+4. Run `pnpm install` at the project root.
+5. Go to `examples/tauri-app` and run `pnpm install`.
+6. In `examples/tauri-app`, run `pnpm tauri android dev`.
